@@ -5,4 +5,4 @@ def test_addition(a, b):
 
 def test_addition_valid():
     assert test_addition(1, 3) == 4  # Passes
-    assert test_addition(1, 4) == 5 
+    assert test_addition(2, 4) == 5 
