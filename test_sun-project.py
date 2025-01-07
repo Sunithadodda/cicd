@@ -1,6 +1,6 @@
 # test_sun_project.py
 
-def test_addition(a, b):
+def test_addition( a, b ):
     return a + b
 
 def test_addition_valid():
