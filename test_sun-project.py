@@ -1,8 +1,8 @@
 # test_sun_project.py
 
-def test_addition(a, b):
+def add(a, b):
     return a + b
 
-def test_addition_valid():
-    assert test_addition(1, 3) == 4  # Passes
-    assert test_addition(2, 4) == 5 
+def test_add():
+    assert add(1, 2) == 3
+    assert add(1, -1) == 0
